@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Landing Page</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/17b6e821ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav-list">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="https://youjane11.github.io/profile/">Portfolio</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container-wrapper">
+        <nav class="nav-wrapper">
+            <div class="nav-bar">
+                <div class="bar-line"></div>
+                <div class="bar-line"></div>
+                <div class="bar-line"></div>
+            </div>
+        </nav>
+        <div class="hero-img"></div>
+        <div class="hero-content">
+            <h1>Chonnawi</h1>
+            <h2>Sirivong</h2>
+            <p>
+I'm a Seeing experience in Technology and information in a hotel.
+
+</p>
+            <ul class="icons">
+                <li><a href="https://www.facebook.com/youjane14"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/youjane14"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/youjane11"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        var nav = document.querySelector(".nav-list");
+        var bar = document.querySelector(".nav-bar");
+        var clicked = false;
+        bar.addEventListener('click', function () {
+            if(!clicked){
+                clicked = true;
+                nav.style.left = '0%'
+            }
+            else{
+                clicked = false;
+                nav.style.left = '-100%'
+            }
+        })
+    </script>
+</body>
+</html>
