@@ -8,7 +8,7 @@
   left: -100%;
   height: 100%;
   width: 100%;
-  background: #333;
+  background: #bce;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +38,7 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: #d0d0d0;
+  background: #d1eaf5;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 120px 1fr;
@@ -50,7 +50,7 @@
 .container-wrapper::before {
   content: '';
   position: absolute;
-  background: #c8c8c8;
+  background: #aacce2;
   height: 60vh;
   width: 80%;
   right: 0;
